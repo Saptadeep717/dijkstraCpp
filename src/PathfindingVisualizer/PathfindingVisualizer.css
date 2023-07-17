@@ -1,0 +1,25 @@
+.grid {
+  margin: 40px 0 0;
+}
+.play-button {
+  position: relative;
+  top: 720px;
+  left: 1%;
+  border: none;
+  outline: none;
+  color: #fdfffc;
+  width: 80px;
+  height: 35px;
+  background-color: #f72585;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* z-index: 1; */
+}
+
+.play-button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
